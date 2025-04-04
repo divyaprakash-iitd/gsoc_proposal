@@ -99,13 +99,13 @@ mpirun -np 2 SU2_CFD config_NICFD_PINN.cfg
 ## Simulation Results
 
 <p align="center">
-  <img src="rms_residuals.png" alt="residual plot">
+  <img src="PhysicsInformed/rms_residuals.png" alt="residual plot">
   <br>
   <em>Residuals plot</em>
 </p>
 
 <p align="center">
-  <img src="gsoc_proposal_temp_c.png" alt="temperature plot">
+  <img src="PhysicsInformed/gsoc_proposal_temp_c.png" alt="temperature plot">
   <br>
   <em>Temperature contours</em>
 </p>
