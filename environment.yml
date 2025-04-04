@@ -1,0 +1,18 @@
+name: su2-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pip
+  - tqdm
+  - matplotlib
+  - scikit-learn
+  - tensorflow
+  - pyfiglet
+  - mpi4py
+  - swig
+  - pip:
+    - CoolProp
+    - cantera
