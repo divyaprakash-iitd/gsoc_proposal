@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Ignore all CSV files
+*.csv
+
+# But keep history.csv
+!history.csv
+
+# SImulation files
+*.dat
