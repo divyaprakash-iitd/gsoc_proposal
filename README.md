@@ -105,7 +105,7 @@ mpirun -np 2 SU2_CFD config_NICFD_PINN.cfg
 </p>
 
 <p align="center">
-  <img src="PhysicsInformed/gsoc_proposal_temp_c.png" alt="temperature plot">
+  <img src="PhysicsInformed/gsoc_proposal_temp.png" alt="temperature plot">
   <br>
   <em>Temperature contours</em>
 </p>
