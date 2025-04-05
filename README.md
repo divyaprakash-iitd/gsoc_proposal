@@ -34,6 +34,15 @@ dependencies:
 conda env update -f environment.yml
 ```
 
+4. Make sure you add the following lines to `~/.bashrc` to ensure that the `PYTHONPATH` is updated.
+```bash
+export PINNTRAINING_HOME=/home/baadalvm/SU2_DataMiner
+export PYTHONPATH=$PYTHONPATH:$PINNTRAINING_HOME
+export PATH=$PATH:$PINNTRAINING_HOME/bin
+
+``` 
+
+
 ### Installing SU2
 
 1. Download SU2
